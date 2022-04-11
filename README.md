@@ -2,9 +2,11 @@
 
 ## Linear Regression to Predict MPG
 
+![Linear Regression](https://github.com/PGrickswim/MechaCar_Statistical/blob/main/resources/Linear%20Regression.png)
+
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?'
     - The ones that provided a non-random amount of variance are the following: vehicle_weight
-    - The other coeffiecients are all above 0.05 so they are not sufficient to provide a non-random amount of variance. One that was close was spoiler_angle, with a 0.06 value.
+    - The other coeffiecients are all above 0.05 so they are not sufficient to provide a non-random amount of variance. One that was close was spoiler_angle, with a 0.06 value. 
 
 - Is the slope of the linear model considered to be zero? Why or why not?
     - The slope of the mode is not zero, because the estimates in the summary of the linear regression are non-zero values. This indicates that as these variables change, MPG changes as well.  
@@ -14,10 +16,15 @@
 
 ## Summary Statistics on Suspension Colis
 
+![Total Summary of Suspension Coils](https://github.com/PGrickswim/MechaCar_Statistical/blob/main/resources/total%20summary%20df.png)
+![Lot Summary of Suspension Coils](https://github.com/PGrickswim/MechaCar_Statistical/blob/main/resources/lot%20summary%20df.png)
+
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
     - Manufacturing lot 1 and 2 meet this test, but manufacturing lot 3 does not. The variance and standard deviation are much larger on Lot 3, and with a variance of 170 psi, the third manufacturing lot is suspect.
 
 ## T-Tests on Suspension Coils
+
+![t-test results of the three samples](https://github.com/PGrickswim/MechaCar_Statistical/blob/main/resources/t-test%20results.png)
 
 - Summary: In the t-test, we determine whether the mean PSI of each manufacturing lot is statistically different from the population mean of 1,500 PSI. 
     - In the t-test of sample one, we find that the p-value of 1 means we definitely don't have enough evidence to reject the null hypothesis that the true mean is 1,500 PSI.
